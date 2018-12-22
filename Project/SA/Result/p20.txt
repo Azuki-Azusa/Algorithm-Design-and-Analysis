@@ -1,0 +1,152 @@
+Begin: 25955
+
+Result: 10779
+Status of facilities: 1 0 0 1 0 0 1 0 0 0 1 0 0 1 1 1 0 1 0 1 
+The assignment of customers to facilities: 0 3 10 10 19 15 17 13 14 17 15 19 19 6 13 3 15 10 17 6 14 15 15 19 6 17 0 17 3 17 13 15 13 0 3 10 3 19 19 13 6 0 15 0 3 13 14 10 19 6 
+Time cost: 0.9773945808410645s
+
+Result: 11391
+Status of facilities: 1 1 0 1 1 0 1 1 0 0 0 0 0 1 0 1 0 0 0 0 
+The assignment of customers to facilities: 0 1 7 7 1 15 3 13 3 4 15 4 1 6 13 3 15 7 4 6 15 15 15 13 6 4 0 3 1 4 13 7 13 0 3 6 3 1 1 13 6 0 0 7 3 13 7 7 4 6 
+Time cost: 1.0016133785247803s
+
+Result: 11654
+Status of facilities: 1 1 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 
+The assignment of customers to facilities: 0 12 7 7 1 12 17 13 12 17 15 1 1 6 13 3 15 7 17 6 12 15 15 13 6 17 0 17 1 17 13 7 13 0 3 6 3 1 1 13 12 0 15 0 3 13 12 6 1 6 
+Time cost: 0.9907970428466797s
+
+Result: 11356
+Status of facilities: 1 1 0 1 0 0 1 1 0 0 1 0 0 1 0 0 0 1 0 1 
+The assignment of customers to facilities: 0 1 10 10 1 13 17 13 7 17 7 19 1 6 13 3 7 10 17 6 1 7 7 19 6 17 0 17 1 17 13 7 13 10 3 10 3 19 19 13 6 0 0 0 3 13 7 10 19 6 
+Time cost: 1.0130558013916016s
+
+Result: 11868
+Status of facilities: 1 0 0 1 1 1 1 0 0 0 1 0 1 0 0 0 0 0 1 1 
+The assignment of customers to facilities: 0 12 10 10 19 18 3 18 12 4 5 4 19 6 18 3 5 10 4 6 12 5 5 19 6 4 0 3 3 4 18 10 18 0 3 10 3 19 19 18 6 0 5 0 3 5 12 10 19 6 
+Time cost: 0.9746448993682861s
+
+Result: 11747
+Status of facilities: 1 1 1 0 0 0 1 0 0 1 0 0 0 1 1 1 0 1 0 0 
+The assignment of customers to facilities: 0 1 6 6 1 15 17 13 14 17 15 1 1 6 13 14 15 14 17 9 14 15 15 2 6 17 0 1 1 17 13 15 2 0 1 6 17 1 2 13 9 0 15 0 9 13 14 6 2 9 
+Time cost: 1.009185552597046s
+
+Result: 12095
+Status of facilities: 1 1 0 1 1 0 0 1 0 1 1 0 0 1 0 0 1 0 0 1 
+The assignment of customers to facilities: 16 1 10 10 1 13 3 13 3 4 7 4 1 10 13 3 7 10 4 9 1 7 7 19 9 4 16 3 1 4 13 7 13 16 3 10 3 19 19 13 9 0 0 0 3 13 7 10 19 9 
+Time cost: 1.0067691802978516s
+
+Result: 11574
+Status of facilities: 1 1 0 1 0 0 1 1 0 0 1 0 0 1 0 1 0 0 0 1 
+The assignment of customers to facilities: 0 1 10 10 1 15 3 13 7 3 15 19 1 6 13 3 15 10 1 6 15 15 15 19 6 1 0 3 1 3 13 7 13 0 1 10 3 19 19 13 6 0 15 0 3 13 7 10 19 6 
+Time cost: 1.0223593711853027s
+
+Result: 11528
+Status of facilities: 1 1 0 1 1 0 1 0 0 0 1 0 1 1 0 1 0 0 0 0 
+The assignment of customers to facilities: 0 12 10 10 1 12 3 13 12 4 15 4 1 6 13 3 15 10 4 6 12 15 15 13 6 4 0 3 1 4 13 15 13 0 3 10 3 1 1 13 6 0 0 15 3 13 12 10 4 6 
+Time cost: 0.9683120250701904s
+
+Result: 11612
+Status of facilities: 0 1 1 1 0 0 0 0 0 1 1 0 0 0 1 1 1 0 0 1 
+The assignment of customers to facilities: 16 1 10 10 1 19 3 2 14 3 15 19 1 10 2 3 15 10 1 9 14 15 15 19 9 1 16 3 1 1 2 15 2 16 3 10 3 19 19 2 9 16 15 16 3 15 14 10 19 9 
+Time cost: 0.9647994041442871s
+
+Result: 11617
+Status of facilities: 1 1 0 1 0 0 1 0 0 0 1 0 0 0 0 1 0 1 1 1 
+The assignment of customers to facilities: 0 1 10 10 1 18 17 18 3 17 15 19 1 6 18 3 15 10 17 6 15 15 15 19 6 17 0 17 1 17 18 15 18 0 3 10 3 19 19 18 6 0 0 15 3 0 18 10 19 6 
+Time cost: 0.9623069763183594s
+
+Result: 11134
+Status of facilities: 0 0 0 1 0 0 1 1 0 0 0 0 0 1 1 1 1 1 0 1 
+The assignment of customers to facilities: 16 3 7 7 19 15 17 13 14 17 15 19 19 6 13 3 15 7 17 6 14 15 15 19 6 17 16 17 3 17 13 7 13 16 3 6 3 19 19 13 14 16 15 16 3 13 14 6 19 6 
+Time cost: 0.9750142097473145s
+
+Result: 11927
+Status of facilities: 0 0 1 1 1 0 1 1 0 0 0 0 1 1 0 1 1 0 0 0 
+The assignment of customers to facilities: 16 12 7 7 12 12 3 13 12 4 15 4 12 6 13 3 15 7 4 6 12 15 15 2 6 4 16 3 3 4 13 7 2 16 3 6 3 12 4 13 6 16 15 16 3 13 12 7 2 6 
+Time cost: 0.9800891876220703s
+
+Result: 11730
+Status of facilities: 0 1 1 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 0 
+The assignment of customers to facilities: 16 1 7 7 1 18 17 18 7 17 15 1 1 6 2 8 15 7 17 6 18 15 15 2 6 17 16 17 1 17 2 7 2 16 1 6 8 1 1 2 6 16 15 16 8 15 7 6 2 8 
+Time cost: 0.9735822677612305s
+
+Result: 11613
+Status of facilities: 1 1 1 1 0 0 1 1 0 0 1 0 0 0 0 0 0 1 1 0 
+The assignment of customers to facilities: 0 1 10 10 1 18 17 18 7 17 7 1 1 6 2 3 7 10 17 6 18 18 7 2 6 17 0 17 1 17 2 7 2 0 3 10 3 1 1 2 6 0 0 7 3 18 7 10 2 6 
+Time cost: 0.9760003089904785s
+
+Result: 11888
+Status of facilities: 1 1 1 1 1 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 
+The assignment of customers to facilities: 0 1 10 10 1 18 3 18 7 4 7 4 1 6 2 3 7 10 4 6 18 18 7 2 6 4 0 3 1 4 2 7 2 0 3 10 3 1 1 2 6 0 0 7 3 18 7 10 2 6 
+Time cost: 0.9613132476806641s
+
+Result: 11127
+Status of facilities: 1 0 0 1 0 0 0 0 0 0 1 0 1 1 0 1 0 1 0 1 
+The assignment of customers to facilities: 0 12 15 10 19 12 17 13 12 17 15 19 19 10 13 3 15 10 17 3 12 15 15 19 10 17 0 17 3 17 13 10 13 0 3 10 3 19 19 13 12 0 15 0 3 13 12 10 19 3 
+Time cost: 1.0380091667175293s
+
+Result: 11287
+Status of facilities: 0 1 0 1 0 1 1 1 0 0 0 0 0 1 0 0 1 1 0 0 
+The assignment of customers to facilities: 16 3 7 7 1 13 17 13 3 17 7 1 1 6 13 3 5 7 17 6 1 5 7 13 6 17 16 17 1 17 13 7 13 16 3 6 3 1 1 13 3 16 5 16 3 5 7 6 1 6 
+Time cost: 0.9949040412902832s
+
+Result: 11501
+Status of facilities: 1 0 1 1 0 0 1 0 0 0 1 0 1 1 0 1 0 1 0 0 
+The assignment of customers to facilities: 10 12 10 10 12 12 17 13 12 17 15 2 12 6 13 3 15 10 17 6 12 15 15 2 6 17 0 17 3 17 13 15 2 0 3 10 3 12 2 13 6 0 0 0 3 13 12 10 2 6 
+Time cost: 0.9746255874633789s
+
+Result: 12318
+Status of facilities: 0 1 0 0 1 0 1 1 1 0 0 0 0 1 1 0 1 1 1 0 
+The assignment of customers to facilities: 16 1 7 7 1 18 17 13 14 17 7 4 1 6 13 14 18 7 4 6 14 18 7 13 6 17 16 17 1 17 13 7 13 16 1 6 8 1 1 13 6 7 16 16 8 13 14 6 4 8 
+Time cost: 0.9741737842559814s
+
+Result: 11694
+Status of facilities: 1 1 1 0 0 1 1 0 0 0 1 0 1 0 0 1 0 1 0 0 
+The assignment of customers to facilities: 0 12 10 10 1 12 17 5 12 17 15 1 1 6 2 12 15 10 1 6 12 15 15 2 6 17 0 17 12 17 2 15 2 0 1 10 17 1 1 2 6 0 5 0 6 5 12 10 2 6 
+Time cost: 0.9813938140869141s
+
+Result: 11879
+Status of facilities: 1 0 0 1 1 1 1 1 0 0 1 0 1 1 0 0 0 0 0 1 
+The assignment of customers to facilities: 0 12 10 10 19 12 3 13 12 4 7 4 19 6 13 3 5 10 4 6 12 5 7 19 6 4 0 3 3 4 13 7 13 0 3 10 3 19 19 13 6 0 5 0 3 5 12 10 19 6 
+Time cost: 0.9671924114227295s
+
+Result: 11999
+Status of facilities: 0 0 1 1 0 0 1 1 0 0 0 0 1 0 0 1 1 1 1 0 
+The assignment of customers to facilities: 16 12 7 7 12 18 17 18 12 17 15 2 12 6 2 3 15 7 17 6 12 15 15 2 6 17 16 17 3 17 2 7 18 16 3 7 3 18 2 2 6 16 15 16 3 15 12 6 18 6 
+Time cost: 1.0123722553253174s
+
+Result: 12481
+Status of facilities: 1 1 0 1 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 1 
+The assignment of customers to facilities: 0 1 7 7 1 15 3 5 7 4 15 4 1 6 19 3 15 7 4 6 15 15 15 19 6 4 0 1 1 4 19 7 19 0 3 6 3 19 1 5 6 0 5 0 3 5 7 6 19 3 
+Time cost: 0.9734225273132324s
+
+Result: 12101
+Status of facilities: 0 1 0 1 1 1 1 1 0 0 1 0 0 1 0 1 0 0 0 0 
+The assignment of customers to facilities: 7 1 10 10 1 15 3 13 7 4 15 4 1 6 13 3 15 10 4 6 15 15 15 13 6 4 7 3 1 4 13 7 13 7 3 10 3 1 1 13 6 5 5 7 3 5 7 10 4 6 
+Time cost: 0.9696757793426514s
+
+Result: 11867
+Status of facilities: 0 1 1 0 1 0 1 1 0 0 0 0 1 0 0 1 1 1 0 0 
+The assignment of customers to facilities: 16 12 7 7 1 12 17 2 12 17 15 4 1 6 2 12 15 7 4 6 12 15 15 2 6 17 16 17 1 17 2 7 2 16 1 6 17 1 1 2 6 16 15 16 12 15 12 7 4 6 
+Time cost: 0.9767568111419678s
+
+Result: 11686
+Status of facilities: 0 1 0 1 0 1 1 1 0 0 0 0 1 1 0 0 1 1 0 0 
+The assignment of customers to facilities: 16 12 7 7 1 12 17 13 12 17 7 1 1 6 13 3 5 7 17 6 12 5 7 13 6 17 16 17 1 17 13 7 13 16 3 6 3 1 1 13 6 16 5 16 3 5 12 6 1 3 
+Time cost: 0.965684175491333s
+
+Result: 11391
+Status of facilities: 0 1 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 1 0 1 
+The assignment of customers to facilities: 16 1 10 10 1 13 17 13 7 17 7 19 1 6 13 3 7 10 17 6 1 7 7 19 6 17 16 17 1 17 13 7 19 16 3 10 3 19 19 13 6 16 13 16 3 13 7 10 19 6 
+Time cost: 0.9660277366638184s
+
+Result: 11752
+Status of facilities: 1 1 0 1 0 0 1 1 0 0 0 0 0 1 1 0 0 1 1 0 
+The assignment of customers to facilities: 0 1 7 7 1 18 17 13 14 17 7 1 1 6 13 3 18 7 17 6 14 18 7 13 6 17 0 17 1 17 13 7 13 0 3 6 3 1 1 13 6 0 0 7 3 13 14 6 1 3 
+Time cost: 0.9779355525970459s
+
+Result: 11117
+Status of facilities: 0 0 0 1 0 0 1 1 0 0 0 0 0 1 1 1 1 1 0 1 
+The assignment of customers to facilities: 16 3 7 7 19 15 17 13 14 17 15 19 19 6 13 3 15 7 17 6 14 15 15 19 6 17 16 17 3 17 13 7 13 16 3 6 3 19 19 13 6 16 15 16 3 13 14 7 19 6 
+Time cost: 0.9686815738677979s
+

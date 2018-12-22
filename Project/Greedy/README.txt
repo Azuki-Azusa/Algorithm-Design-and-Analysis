@@ -1,0 +1,2 @@
+执行Main.py将会对每个instance执行一次贪心算法，得到的结果将会保存在Result.txt中。
+请不要更改Instances的路径。

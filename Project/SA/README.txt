@@ -1,0 +1,3 @@
+运行Main.py会对每个instance执行SA30次，得到的结果将保存在该目录的Result文件夹中。
+请不要更改Instances文件夹与Result文件夹的路径。
+可以运行get.py得到Result文件夹中每个测例的最优值数据。

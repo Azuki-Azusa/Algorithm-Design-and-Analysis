@@ -1,5 +1,6 @@
 for i in range(1, 72):
     with open(r'Result/p' + str(i) + ".txt", 'r') as f:
+        print('p' + str(i) + ':')
         data = f.read()
         data = data.split('\n\n')
         temp = 0
@@ -9,4 +10,5 @@ for i in range(1, 72):
             if int(result) < max:
                 temp = j
                 max = int(result)
-        print(data[temp], end='\n\n ')
+        print(data[temp], end='\n\n')
+        f.close()

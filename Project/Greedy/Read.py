@@ -24,5 +24,6 @@ def Read(n):
         #print(OpeningCost)
         #print(Demand)
         #print(Assignment)
+        f.close()
 
         return FacilityNum, CustomerNum, Capacity, OpeningCost, Demand, Assignment

@@ -16,19 +16,20 @@ class Greedy:
         self.FacilityUsers = np.zeros((FacilityNum,), dtype=np.int)
         self.Cost = 0
 
-    def add(self, CapacityID, CustomerID):
-        if self.CapacityRest[CapacityID] >= self.Demand[CustomerID]:
-            self.CapacityRest[CapacityID] -= self.Demand[CustomerID]
-            self.Cost += self.Assignment[CapacityID][CustomerID]
-            if self.FacilityUsers[CapacityID] == 0:
-                self.Cost += self.OpeningCost[CapacityID]
-            self.FacilityUsers[CapacityID] += 1
-            self.CustomerChoice[CustomerID] = CapacityID
+    # add an customer into a facility
+    def add(self, FacilityID, CustomerID):
+        if self.CapacityRest[FacilityID] >= self.Demand[CustomerID]:
+            self.CapacityRest[FacilityID] -= self.Demand[CustomerID]
+            self.Cost += self.Assignment[FacilityID][CustomerID]
+            if self.FacilityUsers[FacilityID] == 0:
+                self.Cost += self.OpeningCost[FacilityID]
+            self.FacilityUsers[FacilityID] += 1
+            self.CustomerChoice[CustomerID] = FacilityID
             return True
         else:
             return False
 
-
+    # call init and run greedy alg
     def start(self):
         self.inipri()
         for i in range(self.CustomerNum):
@@ -47,6 +48,7 @@ class Greedy:
         Str += '\n'
         return Str
 
+    # initialize the array
     def inipri(self):
         for j in range(self.FacilityNum):
             for i in range(self.CustomerNum):

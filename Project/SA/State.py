@@ -1,6 +1,7 @@
 import numpy as np
 import random
 class State:
+    # initialize the state randomly
     def __init__(self, FacilityNum, CustomerNum, Capacity, OpeningCost, Demand, Assignment):
         self.FacilityNum = FacilityNum
         self.CustomerNum = CustomerNum
@@ -13,7 +14,7 @@ class State:
         self.Cost = 0
         self.start()
 
-
+    # get the best random neighbor state (cost, operate)
     def ran(self):
         cost = float("inf")
         desttemp = cstmtemp = -1
@@ -36,21 +37,20 @@ class State:
             self.add(src, cstm)
         return cost, desttemp, cstmtemp
 
-
-
-
-    def add(self, CapacityID, CustomerID):
-        if self.CapacityRest[CapacityID] >= self.Demand[CustomerID]:
-            self.CapacityRest[CapacityID] -= self.Demand[CustomerID]
-            self.Cost += self.Assignment[CapacityID][CustomerID]
-            if self.FacilityUsers[CapacityID] == 0:
-                self.Cost += self.OpeningCost[CapacityID]
-            self.FacilityUsers[CapacityID] += 1
-            self.CustomerChoice[CustomerID] = CapacityID
+    # a customer choose a facility and return whether succeed
+    def add(self, FacilityID, CustomerID):
+        if self.CapacityRest[FacilityID] >= self.Demand[CustomerID]:
+            self.CapacityRest[FacilityID] -= self.Demand[CustomerID]
+            self.Cost += self.Assignment[FacilityID][CustomerID]
+            if self.FacilityUsers[FacilityID] == 0:
+                self.Cost += self.OpeningCost[FacilityID]
+            self.FacilityUsers[FacilityID] += 1
+            self.CustomerChoice[CustomerID] = FacilityID
             return True
         else:
             return False
 
+    # remove a customer from a facility
     def remove(self, CustomerID):
         i = CustomerID
         j = self.CustomerChoice[CustomerID]
@@ -61,6 +61,7 @@ class State:
         if self.FacilityUsers[j] == 0:
             self.Cost -= self.OpeningCost[j]
 
+    # initialize
     def start(self):
         i = 0
         j = random.randint(0, self.FacilityNum - 1)

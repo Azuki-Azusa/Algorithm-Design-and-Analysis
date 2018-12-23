@@ -14,10 +14,11 @@ def run(FacilityNum, CustomerNum, Capacity, OpeningCost, Demand, Assignment):
 for i in range(1, 2):
     print("Calculating p" + str(i), end=' ')
     FacilityNum, CustomerNum, Capacity, OpeningCost, Demand, Assignment = Read.Read(i)
-    test = SA.SA(FacilityNum, CustomerNum, Capacity, OpeningCost, Demand, Assignment)
     Str = ''
     for j in range(30):
         Str += run(FacilityNum, CustomerNum, Capacity, OpeningCost, Demand, Assignment)
+    print(Str)
+
     with open(r'Result/p' + str(i) + '.txt', 'w') as file:
         file.write(Str)
         file.close()

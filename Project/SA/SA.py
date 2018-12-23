@@ -4,6 +4,7 @@ import random
 import numpy as np
 
 class SA:
+    # initialize the para.
     def __init__(self, FacilityNum, CustomerNum, Capacity, OpeningCost, Demand, Assignment):
         self.state = State.State(FacilityNum, CustomerNum, Capacity, OpeningCost, Demand, Assignment)
         self.T = self.state.Cost / 2
@@ -18,6 +19,7 @@ class SA:
         else:
             self.Complex = 0.25
 
+    # call SA and tran the result into string
     def run(self):
         self.outside()
         Str = "Result: " + str(self.state.Cost) + '\n' + "Status of facilities: "
@@ -35,6 +37,7 @@ class SA:
         Str += '\n'
         return Str
 
+    # outside loop of SA
     def outside(self):
         while self.T >= 1:
             newcost, newdest, newcstm = self.state.ran()
@@ -47,7 +50,7 @@ class SA:
             dT = self.T * self.coolrate * self.Complex
             self.T -= dT
 
-
+    # get the adjust value
     def adjust(self, newcost):
         E = newcost - self.state.Cost
         if E < 0:
@@ -57,6 +60,7 @@ class SA:
             temp = (-E)/self.T - (-E2)/self.T
             return math.exp(temp)
 
+    # judge whether accept the new state
     def judge(self, P):
         R = random.random()
         if R < P:

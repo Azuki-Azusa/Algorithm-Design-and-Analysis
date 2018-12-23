@@ -1,3 +1,4 @@
+# Get the info in instance
 def Read(n):
     with open(r'../Instances/p' + str(n), 'r') as f:
         data = f.read()
